@@ -1,4 +1,4 @@
-###Descrição do Projeto:
+### Descrição do Projeto:
 
 O projeto consiste em desenvolver uma aplicação para realizar web scraping no site elivros.love, com o objetivo de buscar todos os livros relacionados a um campo de pesquisa especificado pelo usuário. Para aumentar a usabilidade, será implementada uma interface gráfica utilizando TKinter Boodstrap.
 
