@@ -27,6 +27,3 @@
     <li>Integração da lógica de web scraping com a interface gráfica para exibir os resultados da busca.</li>
     <li>Testes e depuração da aplicação para garantir o funcionamento correto.</li>
 </ol>
-
-</body>
-</html>
