@@ -1,8 +1,8 @@
-Descrição do Projeto:
+###Descrição do Projeto:
 
 O projeto consiste em desenvolver uma aplicação para realizar web scraping no site elivros.love, com o objetivo de buscar todos os livros relacionados a um campo de pesquisa especificado pelo usuário. Para aumentar a usabilidade, será implementada uma interface gráfica utilizando TKinter Boodstrap.
 
-Funcionalidades:
+## Funcionalidades:
 
 Campo de Pesquisa: Um campo onde o usuário pode inserir a palavra-chave para buscar os livros relacionados ao campo de interesse.
 Tabela de Resultados: Abaixo do campo de pesquisa, haverá uma tabela com os resultados da busca. A tabela conterá três colunas:
@@ -14,7 +14,7 @@ Interface Gráfica:
 A interface será desenvolvida utilizando TKinter Boodstrap para proporcionar uma experiência mais agradável ao usuário, seguindo o esboço abaixo:
 
 
-Principais Etapas do Projeto:
+## Principais Etapas do Projeto:
 
 Desenvolvimento da lógica para realizar o web scraping no site elivros.love.
 Implementação da interface gráfica utilizando TKinter Boodstrap.
