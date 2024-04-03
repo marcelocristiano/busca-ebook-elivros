@@ -18,7 +18,7 @@
 
 <h2>Interface Gráfica:</h2>
 <p>A interface será desenvolvida utilizando TKinter Boodstrap para proporcionar uma experiência mais agradável ao usuário, seguindo o esboço abaixo:</p>
-<p><img src="link_para_a_imagem" alt="Esboço da Tela"></p>
+<p><img src="https://i.ibb.co/rGXtQvL/Tela.png" alt="Esboço da Tela"></p>
 
 <h2>Principais Etapas do Projeto:</h2>
 <ol>
