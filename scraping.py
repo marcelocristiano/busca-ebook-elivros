@@ -3,20 +3,19 @@ from bs4 import BeautifulSoup
 
 # Cria variavel para armazenar a URL do site a ser raspado
 url = 'https://elivros.love/Search/augusto-cury'
-def pesquisar(url):
+
+def buscar_paginas(url):
     # Executa a requisição ao site e armazena o retorno na variavel
     resp = requests.get(url)
     # Trasforma o objeto de resposta em html mais legivel
     soup = BeautifulSoup(resp.text, 'html.parser')
-    return soup
-
-
-def buscar_paginas(soup):
+    
     links_paginas = []
     paginas = soup.find_all(class_='page-link')
     for pagina in paginas[1:]:
         links_paginas.append(pagina['href'].strip())
     return links_paginas
+
 
 def buscar_livro(links_paginas: list):
     livros = []
