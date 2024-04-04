@@ -2,7 +2,6 @@ import ttkbootstrap as ttk
 from ttkbootstrap.constants import *
 from ttkbootstrap.style import Style
 import scraping
-import time
 import webbrowser  # Importa o módulo para abrir URLs
 
 app = ttk.Window('Buscar Livros')
@@ -57,7 +56,6 @@ def abrir_link(event):
 
 btn_buscar= ttk.Button(f_entry_busca, text='Buscar', width=10, command=scraping_dados)
 btn_buscar.grid(column=1, row=0)
-
 
 # Define as colunas da tabela de resultados
 colunas = ['Autor', 'Livro', 'Download']
